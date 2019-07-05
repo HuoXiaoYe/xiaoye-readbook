@@ -1,6 +1,6 @@
 # xiaoye-bookread
 
-> A Vue.js project
+> 阅读App
 
 ## Build Setup
 
