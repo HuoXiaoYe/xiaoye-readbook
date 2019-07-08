@@ -6,6 +6,9 @@ import cartoon from '@/views/cartoon'
 import mine from '@/views/mine'
 import search from '@/views/search'
 import bookmall from '@/views/bookMall'
+import bookdesc from '@/components/bookdetail/bookdesc.vue'
+import allchapters from '@/components/bookdetail/allchapters.vue'
+
 
 Vue.use(Router)
 
@@ -45,6 +48,16 @@ export default new Router({
 				}
 
 			]
+		},
+		{
+			path : '/bookdesc/:id',
+			component : bookdesc,
+			name: "bookdesc"
+		},
+		{
+			path : '/allchapters/:id',
+			component : allchapters,
+			name: "allchapters"
 		}
 	],
 	linkActiveClass : 'link-active'

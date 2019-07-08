@@ -18,14 +18,16 @@
 <style scoped="scoped" lang="stylus">
     .container
         .tabbar-list
+            height .9rem
             position: fixed;
-            bottom:0;
+            bottom:-2px;
             left:0;
             right:0;
             display: flex;
             justify-content: center;
             align-items: center;
             align-content: center;
+            z-index 999
             .item
                 flex: 1;
                 display:flex;

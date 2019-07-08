@@ -6,7 +6,7 @@
 				<div slot="action" @click="onSearch">搜索</div>
 			</van-search>
 		</div>
-		<!-- 主题区域 -->
+		<!-- 主体区域 -->
 		<home-index></home-index>
 		<!-- 底部导航区域 -->
 	</div>
@@ -38,6 +38,10 @@
 <style lang="stylus" scoped="scoped">
 	.home-cointainer 
 		.search-container 
-			background-color:red !important;
-	// height:200px;
+			height 1.08rem
+			position fixed
+			top 0
+			left 0
+			right 0
+			z-index 99
 </style>
