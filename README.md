@@ -1,6 +1,6 @@
 # xiaoye-bookread
 
-> 一个非常NB阅读App
+> 一个非常NB阅读App.....
 
 ## Build Setup
 
