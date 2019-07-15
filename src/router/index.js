@@ -8,6 +8,7 @@ import search from '@/views/search'
 import bookmall from '@/views/bookMall'
 import bookdesc from '@/components/bookdetail/bookdesc.vue'
 import allchapters from '@/components/bookdetail/allchapters.vue'
+import chaptercontent from '@/components/bookdetail/ChapterContent.vue'
 
 
 Vue.use(Router)
@@ -58,7 +59,12 @@ export default new Router({
 			path : '/allchapters/:id',
 			component : allchapters,
 			name: "allchapters"
-		}
+		},
+    {
+    	path : '/chaptercontent/:linkindex',
+    	component : chaptercontent,
+    	name: "chaptercontent"
+    }
 	],
 	linkActiveClass : 'link-active'
 })
